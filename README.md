@@ -1,1 +1,2 @@
-2024年通过ChatGPT生成。
+Bo Gao academic profile
+2024.11.08 update
