@@ -37,6 +37,11 @@
             top: 10px; /* Move down 10px */
             right: 10px; /* Move left 10px */
         }
+        .bio .scholar-icon {
+            position: absolute;
+            top: 10px; /* Move down 10px */
+            right: 35px; /* Move left 35px (20px for icon + 5px spacing) */
+        }
         .photo {
             float: right;
             margin-left: 20px;
@@ -61,11 +66,16 @@
             font-weight: bold;
             text-decoration: underline;
         }
-        .orcid-icon i {
-            color: #A6CE39; /* ORCID green color */
+        .orcid-icon i, .scholar-icon i {
             font-size: 20px; /* Set icon size to 20px */
             width: 20px; /* Set width to 20px */
             height: 20px; /* Set height to 20px */
+        }
+        .orcid-icon i {
+            color: #A6CE39; /* ORCID green color */
+        }
+        .scholar-icon i {
+            color: #4285F4; /* Google Scholar blue color */
         }
     </style>
 </head>
@@ -79,6 +89,10 @@
     <div class="bio">
         <h2>About Me</h2>
         <p><b>Bo Gao</b>, <b>高波</b>, (<b>E-mail: gaobo@kaist.ac.kr</b>) is interested in Data converters with particular emphasis on high-speed high-resolution analog-to-digital converter (ADC), and related calibrations.</p>
+        <!-- Google Scholar Icon -->
+        <a href="https://scholar.google.co.kr/citations?hl=zh-CN&user=sFvMHDkAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" class="scholar-icon" title="Google Scholar Profile">
+            <i class="fab fa-google-scholar"></i>
+        </a>
         <!-- ORCID Icon -->
         <a href="https://orcid.org/0000-0002-2931-1270" target="_blank" class="orcid-icon" title="ORCID Profile">
             <i class="fab fa-orcid"></i>
@@ -135,7 +149,7 @@
         <ul>
         <li><b>High gain and high linearity dynamic amplifier for ADC,</b> CN109474249A, 2019.</li>
         <li><b>Separation system of horizontal synchronizing signal and vertical synchronizing signal in video,</b> CN105933574B, 2019.</li>
-        <li><b>High-precision Microwave power detecting system based on cascaded cantilever beam structure and fabrication method,</b> CN106199173A, 2016.</li>
+        <li><b>High-precision Microwave power detecting system with cascaded cantilever beam structure and fabrication method,</b> CN106199173A, 2016.</li>
         </ul>    
     </div>
 
