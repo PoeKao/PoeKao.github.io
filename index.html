@@ -30,9 +30,13 @@
             margin-bottom: 20px;
         }
         .bio {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            position: relative;
+        }
+        .bio .orcid-icon {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
         }
         .photo {
             float: right;
@@ -67,7 +71,7 @@
 <body>
 
 <header>
-    <h1>Curriculum Vitae</h1>
+    <h1>Curriculum Vitae</h></h1>
 </header>
 
 <div class="container">
