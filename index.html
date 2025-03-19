@@ -1,4 +1,3 @@
-<meta name="google-site-verification" content="fdzpTkuqer9f3QjDYHgciStz7xWEOXYxTP2h-HH60go" />
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,9 +31,12 @@
         .bio {
             position: relative;
         }
-        .bio .orcid-icon, .bio .scholar-icon {
+        .bio .linkedin-icon, .bio .orcid-icon, .bio .scholar-icon {
             position: absolute;
             top: 8px; /* Move down 10px */
+        }
+        .bio .linkedin-icon {
+            right: 60px; /* Move left 60px */
         }
         .bio .orcid-icon {
             right: 10px; /* Move left 10px */
@@ -67,10 +69,13 @@
             font-weight: bold;
             text-decoration: underline;
         }
-        .orcid-icon i, .scholar-icon i {
+        .linkedin-icon i, .orcid-icon i, .scholar-icon i {
             font-size: 20px; /* Set icon size to 20px */
             width: 20px; /* Set width to 20px */
             height: 20px; /* Set height to 20px */
+        }
+        .linkedin-icon i {
+            color: #0077B5; /* LinkedIn blue color */
         }
         .orcid-icon i {
             color: #A6CE39; /* ORCID green color */
@@ -93,6 +98,10 @@
     <div class="bio">
         <h2>About Me</h2>
         <p><b>Bo Gao</b> (<b>高波</b>) is interested in Data converters with particular emphasis on high-speed high-resolution analog-to-digital converter (ADC), and related calibrations. (<b>E-mail: gaobo@kaist.ac.kr</b>)</p>
+        <!-- LinkedIn Icon -->
+        <a href="https://www.linkedin.com/in/poekao" target="_blank" class="linkedin-icon" title="LinkedIn Profile">
+            <i class="fab fa-linkedin"></i>
+        </a>
         <!-- Google Scholar Icon -->
         <a href="https://scholar.google.co.kr/citations?hl=zh-CN&user=sFvMHDkAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" class="scholar-icon" title="Google Scholar Profile">
             <i class="fab fa-google"></i>
